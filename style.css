@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/**/
+/* geral */
+/**/
+.contAzul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+  padding-top: 80px;
+  background-color: rgb(135, 121, 189);
+  height: 400px;
+  width: 100%;
+}
+
+/* texto da parte esquerda */
+.containerUm {
+  width: 25%;
+}
+.get {
+  font-size: 40px;
+  color: rgb(59, 21, 95);
+  font-weight: bold;
+}
+.sign {
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+  font-weight: 500;
+}
+
+/*Container Roxo*/
+.testeRoxo {
+  display: flex;
+  justify-content: center;
+  height: 91%;
+  width: 80%;
+}
+.contRoxo {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(34, 0, 43);
+  width: 25vw;
+  height: 85%;
+  box-shadow: 0 10px 20px rgb(0, 0, 0);
+}
+.fill {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  color: white;
+  font-size: 23px;
+}
+
+/*Cadastro*/
+.contInput {
+  flex-direction: column;
+  padding-left: 20px;
+  margin: 10px;
+  width: 20vw;
+}
+.nomeCompleto {
+  color: white;
+  font-weight: 600;
+}
+#inputNome {
+  height: 12%;
+  width: 88%;
+}
+.email {
+  color: white;
+  font-weight: 600;
+}
+#inputEmail {
+  height: 12%;
+  width: 88%;
+}
+.contBotao {
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
+.botao {
+  width: 220px;
+  padding: 8px;
+  justify-content: center;
+  background-color: rgb(255, 30, 0);
+  color: white;
+  font-size: 15px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+#confirmacao {
+  position: fixed;
+  display: none;
+  color: red;
+  font-weight: 700;
+}
+#baseDeDados {
+  display: none;
+}
+/**/
+/*Parte Direita do Site*/
+/**/
+.containerDois {
+  display: flex;
+  flex-direction: column;
+  padding-top: 6px;
+  align-items: center;
+}
+
+/*Texto da parte direita*/
+.contTextoUm {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 400;
+  padding-right: 81px;
+}
+.NumUm {
+  display: flex;
+  font-size: 25px;
+}
+.out {
+  font-size: 18px;
+  padding-left: 10px;
+}
+.contTextoDois {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 400;
+}
+.NumDois {
+  display: flex;
+  font-size: 25px;
+}
+.the {
+  font-size: 18px;
+  padding-left: 10px;
+}
