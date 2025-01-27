@@ -93,6 +93,9 @@
   border-radius: 20px;
   font-weight: 600;
 }
+.botao:hover {
+  cursor: pointer;
+}
 #confirmacao {
   position: fixed;
   display: none;
